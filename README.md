@@ -1,6 +1,6 @@
 # **LAMP (linux,apache,mysql,php) Stack on amazon linux OS**
 
-## **Step 1:  Update System**
+## Step 1:  Update System
 
   ```
       sudo yum update -y

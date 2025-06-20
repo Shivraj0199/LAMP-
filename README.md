@@ -1,12 +1,12 @@
-# **LAMP (linux,apache,mysql,php) Stack on amazon linux OS**
+## **LAMP (linux,apache,mysql,php) Stack on amazon linux OS**
 
-## Step 1:  Update System
+### **Step 1:  Update System**
 
   ```
       sudo yum update -y
   ```
 
-## **Step 2: Install apache(https)**
+### **Step 2: Install apache(https)**
 
   ```
     sudo yum install httpd -y
@@ -14,7 +14,7 @@
     sudo systemctl enable httpd
   ```
 
-## **Step 3: Install mariaDB (MYSQL-compatible)**
+### **Step 3: Install mariaDB (MYSQL-compatible)**
 
   ```
     sudo dnf install mariadb105-server -y
@@ -22,13 +22,13 @@
     sudo systemctl enable mariadb
   ```
 
-## **Step 4: Install PHP and Required Modules**
+### **Step 4: Install PHP and Required Modules**
   
   ```
     sudo dnf install php php-mysqlnd php-cli php-gd php-xml php-mbstring -y
   ```
 
-## **Step 6: Restart Apache**
+### **Step 6: Restart Apache**
 
   ```
     sudo systemctl restart httpd
